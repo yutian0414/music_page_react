@@ -1,0 +1,53 @@
+#Live_sing{
+	height: 30%;
+	width: 70%;
+	margin: auto;
+}
+
+#Live_singer{
+	height: 100%;
+	width: 40%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+
+}
+
+#Live_sing_refer{
+	height: 100%;
+	width: 60%;
+	margin: auto;
+}
+#Live_sing_refer>.row{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+
+}
+
+#Live_sing_refer>.row>div:first-child{
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#Live_singer_name{
+/* 	height: 50%; */
+	width: 100%;
+	margin: auto;
+}
+
+#Live_music_name{
+/* 	height: 50%; */
+	width: 100%;
+	margin: auto;
+}
+
+#Live_sing_refer>.row>div:nth-child(2){
+	height: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center
+}

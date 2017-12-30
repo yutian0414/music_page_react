@@ -1,0 +1,9 @@
+#Headerbar{
+	height: 5%;
+	width: 100%;
+	background: purple;
+}
+
+#right-nav{
+	float: right;
+}

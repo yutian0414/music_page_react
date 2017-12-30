@@ -1,0 +1,85 @@
+#Footer{
+	height: 15%;
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+
+}
+
+#play_control{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex: 20%;
+	align-items: center;
+	justify-content: center;
+}
+#play_area{
+	flex: 43.3%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+#other_control_button{
+	display: flex;
+	flex: 20%;
+	margin: auto;
+	justify-content: center;
+}
+
+#other_control_button>span{
+	padding-right: 5%;
+	padding-left: 5%;
+}
+#playlist{
+	flex: 16.7%;
+}
+
+
+.music_name_and_play{
+	margin: auto;
+	flex: 60%;
+}
+.music_name{
+	flex: 50%;
+}
+.music_play_time{
+	flex: 50%;
+	text-align: right;
+}
+
+.process_bar{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#backward_song,#next_song{
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	border-style: solid;
+	border-radius: 50%;
+	border-color: black;
+	border-width: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#play_or_pause{
+	width: 50px;
+	height: 50px;
+	padding: 0px;
+	border-style: solid;
+	border-radius: 50%;
+	border-color: black;
+	border-width: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+

@@ -1,0 +1,36 @@
+#Header{
+	height: 15%;
+	width: 100%;
+	text-align: center;
+	background: white;
+	border: solid;
+	border-width: 1.5px;
+	border-color: rgb(200,200,200)
+
+}
+
+#log_image{
+	height: 100%;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+	top: 30%;
+
+}
+#user_info{
+	height: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	top: 40%;
+
+}
+#search{
+	height: 100%;
+	top: 40%;
+
+}
+.row{
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+}
